@@ -1,0 +1,842 @@
+﻿<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Trojan Intranet</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- AngularJS CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+</head>
+
+<body>
+
+  <img src="support_banner.jpg" class="topBanner" alt="banner" style="width:604px;height:228px;">
+
+<!-- beginning of tabs section -->
+  <div class="container">
+    <ul class="nav nav-tabs">
+      <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Vendors<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a data-toggle="tab" href="#ComputerAge">Computer Age</a></li>
+          <li><a data-toggle="tab" href="#Dentrix">Dentrix</a></li>
+          <li><a data-toggle="tab" href="#DiamondDental">Diamond Dental</a></li>
+          <li><a data-toggle="tab" href="#Eaglesoft">Eaglesoft</a></li>
+          <li><a data-toggle="tab" href="#EasyDental">Easy Dental</a></li>
+          <li><a data-toggle="tab" href="#Ez2000">EZ2000</a></li>
+          <li><a data-toggle="tab" href="#Genesis">Genesis</a></li>
+          <li><a data-toggle="tab" href="#OpenDental">Open Dental</a></li>
+          <li><a data-toggle="tab" href="#PracticeWorks">Practice Works</a></li>
+          <li><a data-toggle="tab" href="#Softdent">Softdent</a></li>
+        </ul>
+      </li>
+      <li><a data-toggle="tab" href="#menu1">Benefit Services</a></li>
+      <li><a data-toggle="tab" href="#menu2">Dentifi</a></li>
+      <li><a data-toggle="tab" href="#menu3">Manage Care</a></li>
+      <li><a data-toggle="tab" href="#menu4">RealTime Eligibility</a></li>
+      <li><a data-toggle="tab" href="#menu5">Dr Direct</a></li>
+      <li><a data-toggle="tab" href="#menu6">Collection Services (EC)</a></li>
+      <li><a data-toggle="tab" href="#menu7">MISC.</a></li>
+    </ul>
+<!-- end of tabs section -->
+
+<!--Info to be displayed from the selected tabs-->
+
+<!-- home tab -->
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h2>Software Support</h2>
+      <p>This page is meant to be served as a reference when trouble shooting clients</p>
+    </div>
+
+<!-- Computer Age vendor info -->
+    <div id="ComputerAge" class="tab-pane fade">
+      <h2>Computer Age</h2>
+      Vendor Number: 800-603-4438
+      <br /><br />
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3" id="leftCol">
+            <ul class="nav nav-stacked menu" id="sidebar">
+              <li class="dropdown">
+              <a class="dropdown-toggle list-group-item" data-toggle="dropdown" href="#">Web Updates<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a data-toggle="tab" href="#ComputerAgeWebUpdateBS">Benefit Services</a></li>
+                  <li><a data-toggle="tab" href="#ComputerAgeWebUpdateMC">Manage Care</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+              <a class="dropdown-toggle list-group-item" data-toggle="dropdown" href="#">CD Updates<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a data-toggle="tab" href="#ComputerAgeCDUpdateBS">Benefit Services</a></li>
+                  <li><a data-toggle="tab" href="#ComputerAgeCDUpdateMC">Manage Care</a></li>
+                </ul>
+              </li>
+              <li><a href="#ComputerAgeLinking" class="list-group-item" data-toggle="tab">Linking</a></li>
+              <li><a href="#ComputerAgeErrors" class="list-group-item" data-toggle="tab">Trouble Shooting</a></li>
+            </ul>
+          </div>
+          <div class="tab-content">
+  	    <div id="ComputerAgeWebUpdateBS" class="tab-pane fade">
+              <h3>Web update Instructions w/ BS</h3>
+              <p> 
+                <object class="instructionsPdf" data="ComputerAgeWebUpdateBS.pdf"></object>
+              </p>
+      	    </div>
+  	    <div id="ComputerAgeWebUpdateMC" class="tab-pane fade">
+              <h3>Web update Instructions w/ MC</h3>
+              <p> 
+                Refer to BS update but look for MC folder instead of TRO
+              </p>
+      	    </div>
+  	    <div id="ComputerAgeCDUpdateBS" class="tab-pane fade">
+              <h3>CD update Instructions w/ BS</h3>
+              <p> 
+                <object class="instructionsPdf" data="ComputerAgeCDUpdateBS.pdf"></object>
+              </p>
+      	    </div>
+  	    <div id="ComputerAgeCDUpdateMC" class="tab-pane fade">
+              <h3>CD update Instructions w/ MC</h3>
+              <p> 
+                <object class="instructionsPdf" data="ComputerAgeCDUpdateMC.pdf"></object>
+              </p>
+      	    </div>
+
+            <div id="ComputerAgeLinking" class="tab-pane fade">
+              <h3>Linking Instructions</h3>
+              <p> 
+                <object class="instructionsPdf" data="ComputerAgeLinking.pdf"></object>
+              </p>
+      	    </div>
+            <div id="ComputerAgeErrors" class="tab-pane fade">
+              <h3>Trouble Shooting solutions</h3>
+              <p> 
+		    random information
+		    on random stuff
+		    to test the side panel
+		    for CD updates
+              </p>
+      	    </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Dentrix info -->
+    <div id="Dentrix" class="tab-pane fade">
+      <h2>Dentrix</h2>
+      Vendor Number: 800-336-8749 EXT.2
+      <br /><br />
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3" id="leftCol">
+            <ul class="nav nav-stacked menu" id="sidebar">
+              <li class="dropdown">
+              <a class="dropdown-toggle list-group-item" data-toggle="dropdown" href="#">Web Updates<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a data-toggle="tab" href="#DentrixWebUpdateBS">Benefit Services</a></li>
+                  <li><a data-toggle="tab" href="#DentrixWebUpdateMC">Manage Care</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+              <a class="dropdown-toggle list-group-item" data-toggle="dropdown" href="#">CD Updates<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a data-toggle="tab" href="#DentrixCDUpdateBS">Benefit Services</a></li>
+                  <li><a data-toggle="tab" href="#DentrixCDUpdateMC">Manage Care</a></li>
+                </ul>
+              </li>
+              <li><a href="#DentrixLinking" class="list-group-item" data-toggle="tab">Linking</a></li>
+              <li><a href="#DentrixErrors" class="list-group-item" data-toggle="tab">Trouble Shooting</a></li>
+            </ul>
+          </div>
+          <div class="tab-content">
+            <div id="DentrixWebUpdateBS" class="tab-pane fade">
+              <h3>Web update Instructions w/ BS</h3>
+              <p> 
+                <object class="instructionsPdf" data="DentrixWebUpdateBS.pdf"></object>
+              </p>
+      	    </div>
+  	    <div id="DentrixWebUpdateMC" class="tab-pane fade">
+              <h3>Web update Instructions w/ MC</h3>
+              <p> 
+                <object class="instructionsPdf" data="DentrixWebUpdateMC.pdf"></object>
+              </p>
+      	    </div>
+  	    <div id="DentrixCDUpdateBS" class="tab-pane fade">
+              <h3>CD update Instructions w/ BS</h3>
+              <p> 
+                <object class="instructionsPdf" data="DentrixCDUpdateBS.pdf"></object>
+              </p>
+      	    </div>
+  	    <div id="DentrixCDUpdateMC" class="tab-pane fade">
+              <h3>CD update Instructions w/ MC</h3>
+              <p> 
+                <object class="instructionsPdf" data="DentrixCDUpdateMC.pdf"></object>
+              </p>
+      	    </div>
+
+            <div id="DentrixLinking" class="tab-pane fade">
+              <h3>Linking Instructions</h3>
+              <p> 
+                <object class="instructionsPdf" data="DentrixLinking.pdf"></object>
+              </p>
+      	    </div>
+            <div id="DentrixErrors" class="tab-pane fade">
+              <h3>Trouble Shooting solutions</h3>
+              <p> 
+		    random information
+		    on random stuff
+		    to test the side panel
+		    for CD updates
+              </p>
+      	    </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Diamond Dental info -->
+    <div id="DiamondDental" class="tab-pane fade">
+      <h2>Diamond Dental</h2>
+      Vendor Number: 800-460-3294
+      <br /><br />
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3" id="leftCol">
+            <ul class="nav nav-stacked menu" id="sidebar">
+              <li class="dropdown">
+              <a class="dropdown-toggle list-group-item" data-toggle="dropdown" href="#">Web Updates<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a data-toggle="tab" href="#DiamondDentalWebUpdateBS">Benefit Services</a></li>
+                  <li><a data-toggle="tab" href="#DiamondDentalWebUpdateMC">Manage Care</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+              <a class="dropdown-toggle list-group-item" data-toggle="dropdown" href="#">CD Updates<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a data-toggle="tab" href="#DiamondDentalCDUpdateBS">Benefit Services</a></li>
+                  <li><a data-toggle="tab" href="#DiamondDentalCDUpdateMC">Manage Care</a></li>
+                </ul>
+              </li>
+              <li><a href="#DiamondDentalLinking" class="list-group-item" data-toggle="tab">Linking</a></li>
+              <li><a href="#DiamondDentalErrors" class="list-group-item" data-toggle="tab">Trouble Shooting</a></li>
+            </ul>
+          </div>
+          <div class="tab-content">
+            <div id="DiamondDentalWebUpdateBS" class="tab-pane fade">
+              <h3>Web update Instructions w/ BS</h3>
+              <p> 
+                Follow stand alone web updates
+              </p>
+      	    </div>
+  	    <div id="DiamondDentalWebUpdateMC" class="tab-pane fade">
+              <h3>Web update Instructions w/ MC</h3>
+              <p> 
+                Follow stand alone web updates
+              </p>
+      	    </div>
+  	    <div id="DiamondDentalCDUpdateBS" class="tab-pane fade">
+              <h3>CD update Instructions w/ BS</h3>
+              <p> 
+                Follow stand alone CD updates
+              </p>
+      	    </div>
+  	    <div id="DiamondDentalCDUpdateMC" class="tab-pane fade">
+              <h3>CD update Instructions w/ MC</h3>
+              <p> 
+                Follow stand alone CD updates
+              </p>
+      	    </div>
+
+            <div id="DiamondDentalLinking" class="tab-pane fade">
+              <h3>Linking Instructions</h3>
+              <p> 
+                <object class="instructionsPdf" data="DiamondDentalLinking.pdf"></object>
+              </p>
+      	    </div>
+            <div id="DiamondDentalErrors" class="tab-pane fade">
+              <h3>Trouble Shooting solutions</h3>
+              <p> 
+		    random information
+		    on random stuff
+		    to test the side panel
+		    for CD updates
+              </p>
+      	    </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Eaglesoft info -->
+    <div id="Eaglesoft" class="tab-pane fade">
+      <h2>Eaglesoft</h2>
+      Vendor Number: 800-294-8504
+      <br /><br />
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3" id="leftCol">
+            <ul class="nav nav-stacked menu" id="sidebar">
+              <li class="dropdown">
+              <a class="dropdown-toggle list-group-item" data-toggle="dropdown" href="#">Web Updates<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a data-toggle="tab" href="#EaglesoftWebUpdateBS">Benefit Services</a></li>
+                  <li><a data-toggle="tab" href="#EaglesoftWebUpdateMC">Manage Care</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+              <a class="dropdown-toggle list-group-item" data-toggle="dropdown" href="#">CD Updates<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a data-toggle="tab" href="#EaglesoftCDUpdateBS">Benefit Services</a></li>
+                  <li><a data-toggle="tab" href="#EaglesoftCDUpdateMC">Manage Care</a></li>
+                </ul>
+              </li>
+              <li><a href="#EaglesoftLinking" class="list-group-item" data-toggle="tab">Linking</a></li>
+              <li><a href="#EaglesoftErrors" class="list-group-item" data-toggle="tab">Trouble Shooting</a></li>
+            </ul>
+          </div>
+          <div class="tab-content">
+            <div id="EaglesoftWebUpdateBS" class="tab-pane fade">
+              <h3>Web update Instructions w/ BS</h3>
+	      <div class="col-md-9">
+              <h4>Versions 14 & 15</h4>
+              <p> 
+                <object class="instructionsPdf" data="EaglesoftWebUpdateBSold.pdf"></object>
+              </p>
+              <h4>Versions 16 & above</h4>
+              <p> 
+                <object class="instructionsPdf" data="EaglesoftWebUpdateBSnew.pdf"></object>
+              </p>
+              </div>
+      	    </div>
+  	    <div id="EaglesoftWebUpdateMC" class="tab-pane fade">
+              <h3>Web update Instructions w/ MC</h3>
+              <p> 
+                Follow the BS update but look for the MC folder
+              </p>
+      	    </div>
+  	    <div id="EaglesoftCDUpdateBS" class="tab-pane fade">
+              <h3>CD update Instructions w/ BS</h3>
+              <h4>Versions 14 & 15</h4>
+              <p> 
+                <object class="instructionsPdf" data="EaglesoftCDUpdateBS.pdf"></object>
+              </p>
+      	    </div>
+  	    <div id="EaglesoftCDUpdateMC" class="tab-pane fade">
+              <h3>CD update Instructions w/ MC</h3>
+              <p> 
+                Follow the CD update for BS
+              </p>
+      	    </div>
+
+            <div id="EaglesoftLinking" class="tab-pane fade">
+              <h3>Linking Instructions</h3>
+              <p> 
+                <object class="instructionsPdf" data="EaglesoftLinking.pdf"></object>
+              </p>
+      	    </div>
+            <div id="EaglesoftErrors" class="tab-pane fade">
+              <h3>Trouble Shooting solutions</h3>
+              <p> 
+		    random information
+		    on random stuff
+		    to test the side panel
+		    for CD updates
+              </p>
+      	    </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Easy Dental info -->
+    <div id="EasyDental" class="tab-pane fade">
+      <h2>Easy Dental</h2>
+      Vendor Number: 800-593-2814
+      <br /><br />
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3" id="leftCol">
+            <ul class="nav nav-stacked menu" id="sidebar">
+              <li class="dropdown">
+              <a class="dropdown-toggle list-group-item" data-toggle="dropdown" href="#">Web Updates<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a data-toggle="tab" href="#EasyDentalWebUpdateBS">Benefit Services</a></li>
+                  <li><a data-toggle="tab" href="#EasyDentalWebUpdateMC">Manage Care</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+              <a class="dropdown-toggle list-group-item" data-toggle="dropdown" href="#">CD Updates<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a data-toggle="tab" href="#EasyDentalCDUpdateBS">Benefit Services</a></li>
+                  <li><a data-toggle="tab" href="#EasyDentalCDUpdateMC">Manage Care</a></li>
+                </ul>
+              </li>
+              <li><a href="#EasyDentalLinking" class="list-group-item" data-toggle="tab">Linking</a></li>
+              <li><a href="#EasyDentalErrors" class="list-group-item" data-toggle="tab">Trouble Shooting</a></li>
+            </ul>
+          </div>
+          <div class="tab-content">
+  	    <div id="EasyDentalWebUpdateBS" class="tab-pane fade">
+              <h3>Web update Instructions w/ BS</h3>
+              <p> 
+                <object class="instructionsPdf" data="EasyDentalWebUpdateBS.pdf"></object>
+              </p>
+      	    </div>
+  	    <div id="EasyDentalWebUpdateMC" class="tab-pane fade">
+              <h3>Web update Instructions w/ MC</h3>
+              <p> 
+                <object class="instructionsPdf" data="EasyDentalWebUpdateMC.pdf"></object>
+              </p>
+      	    </div>
+  	    <div id="EasyDentalCDUpdateBS" class="tab-pane fade">
+              <h3>CD update Instructions w/ BS</h3>
+              <p> 
+                <object class="instructionsPdf" data="EasyDentalCDUpdateBS.pdf"></object>
+              </p>
+      	    </div>
+  	    <div id="EasyDentalCDUpdateMC" class="tab-pane fade">
+              <h3>CD update Instructions w/ MC</h3>
+              <p> 
+                <object class="instructionsPdf" data="EasyDentalCDUpdateMC.pdf"></object>
+              </p>
+      	    </div>
+
+            <div id="EasyDentalLinking" class="tab-pane fade">
+              <h3>Linking Instructions</h3>
+              <p> 
+                <object class="instructionsPdf" data="EasyDentalLinking.pdf"></object>
+              </p>
+      	    </div>
+            <div id="EasyDentalErrors" class="tab-pane fade">
+              <h3>Trouble Shooting solutions</h3>
+              <p> 
+		    random information
+		    on random stuff
+		    to test the side panel
+		    for CD updates
+              </p>
+      	    </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- EZ2000 info -->
+    <div id="Ez2000" class="tab-pane fade">
+      <h2>EZ2000</h2>
+      Vendor Number: 310-204-6134
+      <br /><br />
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3" id="leftCol">
+            <ul class="nav nav-stacked menu" id="sidebar">
+              <li class="dropdown">
+              <a class="dropdown-toggle list-group-item" data-toggle="dropdown" href="#">Web Updates<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a data-toggle="tab" href="#Ez2000WebUpdateBS">Benefit Services</a></li>
+                  <li><a data-toggle="tab" href="#Ez2000WebUpdateMC">Manage Care</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+              <a class="dropdown-toggle list-group-item" data-toggle="dropdown" href="#">CD Updates<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a data-toggle="tab" href="#Ez2000CDUpdateBS">Benefit Services</a></li>
+                  <li><a data-toggle="tab" href="#Ez2000CDUpdateMC">Manage Care</a></li>
+                </ul>
+              </li>
+              <li><a href="#Ez2000Linking" class="list-group-item" data-toggle="tab">Linking</a></li>
+              <li><a href="#Ez2000Errors" class="list-group-item" data-toggle="tab">Trouble Shooting</a></li>
+            </ul>
+          </div>
+          <div class="tab-content">
+  	    <div id="Ez2000WebUpdateBS" class="tab-pane fade">
+              <h3>Web update Instructions w/ BS</h3>
+              <p> 
+                <object class="instructionsPdf" data="Ez2000WebUpdateBS.pdf"></object>
+              </p>
+      	    </div>
+  	    <div id="Ez2000WebUpdateMC" class="tab-pane fade">
+              <h3>Web update Instructions w/ MC</h3>
+              <p> 
+                Follow the BS pdf
+              </p>
+      	    </div>
+  	    <div id="Ez2000CDUpdateBS" class="tab-pane fade">
+              <h3>CD update Instructions w/ BS</h3>
+              <p> 
+                None
+              </p>
+      	    </div>
+  	    <div id="Ez2000CDUpdateMC" class="tab-pane fade">
+              <h3>CD update Instructions w/ MC</h3>
+              <p> 
+                None
+              </p>
+      	    </div>
+
+            <div id="Ez2000Linking" class="tab-pane fade">
+              <h3>Linking Instructions</h3>
+              <p> 
+                <object class="instructionsPdf" data="Ez2000Linking.pdf"></object>
+              </p>
+      	    </div>
+            <div id="Ez2000Errors" class="tab-pane fade">
+              <h3>Trouble Shooting solutions</h3>
+              <p> 
+		    random information
+		    on random stuff
+		    to test the side panel
+		    for CD updates
+              </p>
+      	    </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Genesis info -->
+    <div id="Genesis" class="tab-pane fade">
+      <h2>Genesis</h2>
+      Vendor Number: 800-767-4102
+      <br /><br />
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3" id="leftCol">
+            <ul class="nav nav-stacked menu" id="sidebar">
+              <li class="dropdown">
+              <a class="dropdown-toggle list-group-item" data-toggle="dropdown" href="#">Web Updates<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a data-toggle="tab" href="#GenesisWebUpdateBS">Benefit Services</a></li>
+                  <li><a data-toggle="tab" href="#GenesisWebUpdateMC">Manage Care</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+              <a class="dropdown-toggle list-group-item" data-toggle="dropdown" href="#">CD Updates<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a data-toggle="tab" href="#GenesisCDUpdateBS">Benefit Services</a></li>
+                  <li><a data-toggle="tab" href="#GenesisCDUpdateMC">Manage Care</a></li>
+                </ul>
+              </li>
+              <li><a href="#GenesisLinking" class="list-group-item" data-toggle="tab">Linking</a></li>
+              <li><a href="#GenesisErrors" class="list-group-item" data-toggle="tab">Trouble Shooting</a></li>
+            </ul>
+          </div>
+          <div class="tab-content">
+  	    <div id="GenesisWebUpdateBS" class="tab-pane fade">
+              <h3>Web update Instructions w/ BS</h3>
+              <p> 
+                <object class="instructionsPdf" data="GenesisWebUpdateBS.pdf"></object>
+              </p>
+      	    </div>
+  	    <div id="GenesisWebUpdateMC" class="tab-pane fade">
+              <h3>Web update Instructions w/ MC</h3>
+              <p> 
+                None
+              </p>
+      	    </div>
+  	    <div id="GenesisCDUpdateBS" class="tab-pane fade">
+              <h3>CD update Instructions w/ BS</h3>
+              <p> 
+                <object class="instructionsPdf" data="GenesisCDUpdateBS.pdf"></object>
+              </p>
+      	    </div>
+  	    <div id="GenesisCDUpdateMC" class="tab-pane fade">
+              <h3>CD update Instructions w/ MC</h3>
+              <p> 
+                None
+              </p>
+      	    </div>
+            <div id="GenesisLinking" class="tab-pane fade">
+              <h3>Linking Instructions</h3>
+              <p> 
+                <object class="instructionsPdf" data="GenesisLinking.pdf"></object>
+              </p>
+      	    </div>
+            <div id="GenesisErrors" class="tab-pane fade">
+              <h3>Trouble Shooting solutions</h3>
+              <p> 
+		    random information
+		    on random stuff
+		    to test the side panel
+		    for CD updates
+              </p>
+      	    </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Open Dental -->
+    <div id="OpenDental" class="tab-pane fade">
+      <h2>Open Dental</h2>
+      Vendor Number: 503-363-5432
+      <br /><br />
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3" id="leftCol">
+            <ul class="nav nav-stacked menu" id="sidebar">
+              <li class="dropdown">
+              <a class="dropdown-toggle list-group-item" data-toggle="dropdown" href="#">Web Updates<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a data-toggle="tab" href="#OpenDentalWebUpdateBS">Benefit Services</a></li>
+                  <li><a data-toggle="tab" href="#OpenDentalWebUpdateMC">Manage Care</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+              <a class="dropdown-toggle list-group-item" data-toggle="dropdown" href="#">CD Updates<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a data-toggle="tab" href="#OpenDentalCDUpdateBS">Benefit Services</a></li>
+                  <li><a data-toggle="tab" href="#OpenDentalCDUpdateMC">Manage Care</a></li>
+                </ul>
+              </li>
+              <li><a href="#OpenDentalLinking" class="list-group-item" data-toggle="tab">Linking</a></li>
+              <li><a href="#OpenDentalErrors" class="list-group-item" data-toggle="tab">Trouble Shooting</a></li>
+            </ul>
+          </div>
+          <div class="tab-content">
+  	    <div id="OpenDentalWebUpdateBS" class="tab-pane fade">
+              <h3>Web update Instructions w/ BS</h3>
+              <p> 
+                Stand Alone update suffices
+              </p>
+      	    </div>
+  	    <div id="OpenDentalWebUpdateMC" class="tab-pane fade">
+              <h3>Web update Instructions w/ MC</h3>
+              <p> 
+                Stand Alone update suffices
+              </p>
+      	    </div>
+  	    <div id="OpenDentalCDUpdateBS" class="tab-pane fade">
+              <h3>CD update Instructions w/ BS</h3>
+              <p> 
+                CD updates for stand alone suffices
+              </p>
+      	    </div>
+  	    <div id="OpenDentalCDUpdateMC" class="tab-pane fade">
+              <h3>CD update Instructions w/ MC</h3>
+              <p> 
+                CD updates for stand alone suffices
+              </p>
+      	    </div>
+            <div id="OpenDentalLinking" class="tab-pane fade">
+              <h3>Linking Instructions</h3>
+              <pre> 
+                Open the Trojan Stand Alone Program to look up an insurance plan
+
+                Click Export Plan at the lower right
+
+                Confirm it is "OK" to export the plan information
+
+                Wait for the confirmation that the plan has been exported
+
+                Minimize the Trojan Stand Alone program
+
+                From the Family Module in Open Dental double click on the Add Insurance next to Patient Information
+
+                Select patient's status as subscriber or dependant
+
+                Under "select insurance plan" select New Plan
+
+                Click the import plan button
+
+                The insurance plan with all the data from Trojan
+              </pre>
+      	    </div>
+            <div id="OpenDentalErrors" class="tab-pane fade">
+              <h3>Trouble Shooting solutions</h3>
+              <p> 
+		    random information
+		    on random stuff
+		    to test the side panel
+		    for CD updates
+              </p>
+      	    </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Practice works info -->
+    <div id="PracticeWorks" class="tab-pane fade">
+      <h2>Practice Works</h2>
+      Vendor Number: 503-603-4438
+      <br /><br />
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3" id="leftCol">
+            <ul class="nav nav-stacked menu" id="sidebar">
+              <li class="dropdown">
+              <a class="dropdown-toggle list-group-item" data-toggle="dropdown" href="#">Web Updates<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a data-toggle="tab" href="#PracticeWorksWebUpdateBS">Benefit Services</a></li>
+                  <li><a data-toggle="tab" href="#PracticeWorksWebUpdateMC">Manage Care</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+              <a class="dropdown-toggle list-group-item" data-toggle="dropdown" href="#">CD Updates<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a data-toggle="tab" href="#PracticeWorksCDUpdateBS">Benefit Services</a></li>
+                  <li><a data-toggle="tab" href="#PracticeWorksCDUpdateMC">Manage Care</a></li>
+                </ul>
+              </li>
+              <li><a href="#PracticeWorksLinking" class="list-group-item" data-toggle="tab">Linking</a></li>
+              <li><a href="#PracticeWorksErrors" class="list-group-item" data-toggle="tab">Trouble Shooting</a></li>
+            </ul>
+          </div>
+          <div class="tab-content">
+  	    <div id="PracticeWorksWebUpdateBS" class="tab-pane fade">
+              <h3>Web update Instructions w/ BS</h3>
+              <p> 
+                <object class="instructionsPdf" data="PracticeWorksWebUpdateBS.pdf"></object>
+              </p>
+      	    </div>
+  	    <div id="PracticeWorksWebUpdateMC" class="tab-pane fade">
+              <h3>Web update Instructions w/ MC</h3>
+              <p> 
+                None
+              </p>
+      	    </div>
+  	    <div id="PracticeWorksCDUpdateBS" class="tab-pane fade">
+              <h3>CD update Instructions w/ BS</h3>
+              <p> 
+                <object class="instructionsPdf" data="PracticeWorksCDUpdateBS.pdf"></object>
+              </p>
+      	    </div>
+  	    <div id="PracticeWorksCDUpdateMC" class="tab-pane fade">
+              <h3>CD update Instructions w/ MC</h3>
+              <p> 
+                <object class="instructionsPdf" data="PracticeWorksCDUpdateMC.pdf"></object>
+              </p>
+      	    </div>
+            <div id="PracticeWorksLinking" class="tab-pane fade">
+              <h3>Linking Instructions</h3>
+              <p> 
+                <object height="100%" width="75%" data="PracticeWorksLinking.jpg"></object>
+              </p>
+      	    </div>
+            <div id="PracticeWorksErrors" class="tab-pane fade">
+              <h3>Trouble Shooting solutions</h3>
+              <p> 
+		    random information
+		    on random stuff
+		    to test the side panel
+		    for CD updates
+              </p>
+      	    </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Softdent info -->
+    <div id="Softdent" class="tab-pane fade">
+      <h2>Softdent</h2>
+      Vendor Number: 866-435-7473
+      <br /><br />
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3" id="leftCol">
+            <ul class="nav nav-stacked menu" id="sidebar">
+              <li class="dropdown">
+              <a class="dropdown-toggle list-group-item" data-toggle="dropdown" href="#">Web Updates<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a data-toggle="tab" href="#SoftdentWebUpdateBS">Benefit Services</a></li>
+                  <li><a data-toggle="tab" href="#SoftdentWebUpdateMC">Manage Care</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+              <a class="dropdown-toggle list-group-item" data-toggle="dropdown" href="#">CD Updates<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a data-toggle="tab" href="#SoftdentCDUpdateBS">Benefit Services</a></li>
+                  <li><a data-toggle="tab" href="#SoftdentCDUpdateMC">Manage Care</a></li>
+                </ul>
+              </li>
+              <li><a href="#SoftdentLinking" class="list-group-item" data-toggle="tab">Linking</a></li>
+              <li><a href="#SoftdentErrors" class="list-group-item" data-toggle="tab">Trouble Shooting</a></li>
+            </ul>
+          </div>
+          <div class="tab-content">
+  	    <div id="SoftdentWebUpdateBS" class="tab-pane fade">
+              <h3>Web update Instructions w/ BS</h3>
+              <p> 
+                <object class="instructionsPdf" data="SoftdentWebUpdateBS.pdf"></object>
+              </p>
+      	    </div>
+  	    <div id="SoftdentWebUpdateMC" class="tab-pane fade">
+              <h3>Web update Instructions w/ MC</h3>
+              <p> 
+                None
+              </p>
+      	    </div>
+  	    <div id="SoftdentCDUpdateBS" class="tab-pane fade">
+              <h3>CD update Instructions w/ BS</h3>
+              <p> 
+                <object class="instructionsPdf" data="SoftdentCDUpdateBS.pdf"></object>
+              </p>
+      	    </div>
+  	    <div id="SoftdentCDUpdateMC" class="tab-pane fade">
+              <h3>CD update Instructions w/ MC</h3>
+              <p> 
+                <object class="instructionsPdf" data="SoftdentCDUpdateMC.pdf"></object>
+              </p>
+      	    </div>
+            <div id="SoftdentLinking" class="tab-pane fade">
+              <h3>Linking Instructions</h3>
+              <p> 
+                <object class="instructionsPdf" data="SoftdentLinking.pdf"></object>
+              </p>
+      	    </div>
+            <div id="SoftdentErrors" class="tab-pane fade">
+              <h3>Trouble Shooting solutions</h3>
+              <p> 
+		    random information
+		    on random stuff
+		    to test the side panel
+		    for CD updates
+              </p>
+      	    </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="menu1" class="tab-pane fade">
+      <p>ETW stuff</p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <p>Dentifi stuff</p>
+    </div>
+    <div id="menu3" class="tab-pane fade">
+      <p>Mange Care stuff</p>
+    </div>
+    <div id="menu4" class="tab-pane fade">
+      <p>RE stuff</p>
+    </div>
+    <div id="menu5" class="tab-pane fade">
+      <p>DR Direct stuff</p>
+    </div>
+    <div id="menu6" class="tab-pane fade">
+      <p>CS/EC stuff</p>
+    </div>
+    <div id="menu7" class="tab-pane fade">
+      <p>MSC</p>
+    </div>
+  </div>
+  </div>
+
+
+</body>
+
+</html>

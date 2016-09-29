@@ -1,0 +1,16 @@
+﻿img.topBanner {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#tabTitle {
+  text-align:center;
+}
+
+object.instructionsPdf {
+  height: 600px;
+  width: 75%;
+}
+
+
